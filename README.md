@@ -21,8 +21,8 @@ This is a command-line quiz application built in Python that helps users study c
 ### Installation - **Clone the Repository**:
 
 ```bash
-git clone https://github.com/your-username/cyber-security-quiz.git
-cd cyber-security-quiz
+git clone https://github.com/JakeEstrada/QuizApp.git
+cd QuizApp
 ```
 
 ### Set up your environment
