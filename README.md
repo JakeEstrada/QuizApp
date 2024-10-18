@@ -46,17 +46,16 @@ python3 review.py
 ### Example (this is what it looks like in your terminal)
 
 ```
-Correct: 5 | Wrong: 2
+Incorrect! The correct answer was b) b) An attack that allows manipulation of SQL queries
+Correct: 4 | Wrong: 1 | Progress: 4.44% mastery
 
-Which of the following is an offense related to 'Child Pornography' in cybercrime?
-1) a) Offering or distributing child pornography
-2) b) Unauthorized access to child data
-3) c) Manipulating data to create false records
-4) d) Disrupting child services through DDoS
+What protocol is commonly used for network file transfers?
+1) a) HTTP
+2) b) FTP
+3) c) SSH
+4) d) IPX
 
-Your answer (1-4, a-d), or '0' to exit: 1
-Correct!
-
+Your answer (1-4, a-d), or '0' to exit: 
 ```
 
 
