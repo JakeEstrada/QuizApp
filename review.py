@@ -1,6 +1,6 @@
 import random
 from collections import defaultdict
-from questions import questions 
+from questions import questions
 import os 
 
 
@@ -8,7 +8,7 @@ import os
 
 # Define the maximum box number (representing mastery)
 
-MAX_BOX = 2  # Adjust this to how many times you need to get a question right to "master" it
+MAX_BOX = 3  # Adjust this to how many times you need to get a question right to "master" it
 
 
 # Leitner system: Track the "box" for each question (starts at box 1)
