@@ -4,10 +4,10 @@ questions = [
     "category": "ML Overview - Training/Test Phases",
     "question": "What is the primary purpose of splitting data into training and test sets?",
     "options": [
-      "To make the dataset smaller and easier to process",
+      "To ensure equal representation of all classes",
       "To evaluate model performance on unseen data and detect overfitting",
       "To speed up the training process",
-      "To ensure equal representation of all classes"
+      "To make the dataset smaller and easier to process"
     ],
     "explanation": "The training/test split allows us to train the model on one portion of data and evaluate its generalization ability on unseen test data, helping detect overfitting.",
     "answer": "b"
@@ -17,13 +17,13 @@ questions = [
     "category": "ML Overview - Basic Concepts",
     "question": "In machine learning terminology, what is a 'feature vector'?",
     "options": [
-      "The target variable we're trying to predict",
-      "A single data point in the dataset",
       "The numerical representation of all input attributes for one instance",
+      "A single data point in the dataset",
+      "The target variable we're trying to predict",
       "The error between predicted and actual values"
     ],
     "explanation": "A feature vector is the numerical representation of all input attributes (features) for a single instance/example in the dataset.",
-    "answer": "c"
+    "answer": "a"
   },
   {
     "id": 3,
@@ -31,12 +31,12 @@ questions = [
     "question": "Which of the following best describes the difference between classification and regression?",
     "options": [
       "Classification uses labeled data, regression uses unlabeled data",
-      "Classification predicts discrete categories, regression predicts continuous values",
       "Classification is supervised, regression is unsupervised",
-      "Classification is faster than regression"
+      "Classification is faster than regression",
+      "Classification predicts discrete categories, regression predicts continuous values"
     ],
     "explanation": "Classification predicts discrete categories/classes (e.g., spam/not spam), while regression predicts continuous numerical values (e.g., house prices).",
-    "answer": "b"
+    "answer": "d"
   },
   {
     "id": 4,
@@ -44,9 +44,9 @@ questions = [
     "question": "What characterizes semi-supervised learning?",
     "options": [
       "Using only labeled data for training",
-      "Using only unlabeled data for training",
+      "Using reinforcement signals for training",
       "Using both labeled and unlabeled data for training",
-      "Using reinforcement signals for training"
+      "Using only unlabeled data for training"
     ],
     "explanation": "Semi-supervised learning uses a combination of labeled and unlabeled data, typically with a small amount of labeled data and a large amount of unlabeled data.",
     "answer": "c"
@@ -56,39 +56,39 @@ questions = [
     "category": "ML Overview - Reinforcement Learning",
     "question": "In reinforcement learning, what is the agent trying to optimize?",
     "options": [
-      "Prediction accuracy on a test set",
       "Cumulative reward over time",
+      "Prediction accuracy on a test set",
       "Classification error rate",
       "Feature correlation"
     ],
     "explanation": "In reinforcement learning, an agent learns to take actions in an environment to maximize cumulative reward over time through trial and error.",
-    "answer": "b"
+    "answer": "a"
   },
   {
     "id": 6,
     "category": "Data Preprocessing - Variable Types",
     "question": "What is the main difference between ordinal encoding and one-hot encoding for categorical variables?",
     "options": [
-      "Ordinal encoding preserves order relationships, one-hot encoding doesn't",
       "One-hot encoding is faster than ordinal encoding",
       "Ordinal encoding creates more features than one-hot encoding",
-      "One-hot encoding only works with numerical data"
+      "One-hot encoding only works with numerical data",
+      "Ordinal encoding preserves order relationships, one-hot encoding doesn't"
     ],
     "explanation": "Ordinal encoding assigns integers that preserve order (e.g., low=1, medium=2, high=3), while one-hot encoding creates binary columns without assuming order.",
-    "answer": "a"
+    "answer": "d"
   },
   {
     "id": 7,
     "category": "Data Preprocessing - Scaling",
     "question": "When should you use standardization (z-score normalization) instead of min-max scaling?",
     "options": [
-      "When you want values between 0 and 1",
       "When the data has outliers or unknown distribution bounds",
+      "When you want values between 0 and 1",
       "When you have categorical variables",
       "When the dataset is very small"
     ],
     "explanation": "Standardization (mean=0, std=1) is more robust to outliers than min-max scaling and doesn't require knowing the data bounds.",
-    "answer": "b"
+    "answer": "a"
   },
   {
     "id": 8,
@@ -109,25 +109,25 @@ questions = [
     "question": "What does a learning curve that shows training error much lower than validation error indicate?",
     "options": [
       "The model is underfitting",
+      "The data is corrupted",
       "The model is overfitting",
-      "The model is perfectly fitted",
-      "The data is corrupted"
+      "The model is perfectly fitted"
     ],
     "explanation": "A large gap between low training error and high validation error is a classic sign of overfitting - the model memorizes training data but doesn't generalize.",
-    "answer": "b"
+    "answer": "c"
   },
   {
     "id": 10,
     "category": "Model Evaluation - Cross Validation",
     "question": "What is the main advantage of k-fold cross-validation over the holdout method?",
     "options": [
+      "It provides more robust performance estimates by using all data for both training and validation",
       "It's faster to compute",
       "It uses less memory",
-      "It provides more robust performance estimates by using all data for both training and validation",
       "It only works with large datasets"
     ],
     "explanation": "K-fold cross-validation uses all data for both training and validation across different folds, providing more robust and reliable performance estimates.",
-    "answer": "c"
+    "answer": "a"
   },
   {
     "id": 11,
@@ -135,12 +135,12 @@ questions = [
     "question": "When is stratified sampling particularly important?",
     "options": [
       "When the dataset is very large",
-      "When there is class imbalance in the target variable",
       "When features are highly correlated",
-      "When using linear regression"
+      "When using linear regression",
+      "When there is class imbalance in the target variable"
     ],
     "explanation": "Stratified sampling ensures each fold maintains the same proportion of samples for each target class, crucial when dealing with imbalanced datasets.",
-    "answer": "b"
+    "answer": "d"
   },
   {
     "id": 12,
@@ -161,12 +161,12 @@ questions = [
     "question": "In a confusion matrix for binary classification, what does precision measure?",
     "options": [
       "True positives / (True positives + False negatives)",
-      "True positives / (True positives + False positives)",
       "True negatives / (True negatives + False positives)",
-      "(True positives + True negatives) / Total predictions"
+      "(True positives + True negatives) / Total predictions",
+      "True positives / (True positives + False positives)"
     ],
     "explanation": "Precision = TP/(TP+FP), measuring the proportion of positive predictions that were actually correct. It answers 'Of all positive predictions, how many were right?'",
-    "answer": "b"
+    "answer": "d"
   },
   {
     "id": 14,
@@ -174,37 +174,37 @@ questions = [
     "question": "What does recall (sensitivity) measure in binary classification?",
     "options": [
       "True positives / (True positives + False positives)",
-      "True positives / (True positives + False negatives)",
       "True negatives / (True negatives + False negatives)",
+      "True positives / (True positives + False negatives)",
       "False positives / (False positives + True negatives)"
     ],
     "explanation": "Recall = TP/(TP+FN), measuring the proportion of actual positives that were correctly identified. It answers 'Of all actual positives, how many did we find?'",
-    "answer": "b"
+    "answer": "c"
   },
   {
     "id": 15,
     "category": "Model Evaluation - F1 Score",
     "question": "When is the F1-score particularly useful?",
     "options": [
-      "When you only care about accuracy",
       "When you need to balance precision and recall",
+      "When you only care about accuracy",
       "When the dataset is perfectly balanced",
       "When you're doing regression"
     ],
     "explanation": "F1-score is the harmonic mean of precision and recall, useful when you need to balance both metrics, especially with imbalanced datasets.",
-    "answer": "b"
+    "answer": "a"
   },
   {
     "id": 16,
     "category": "Linear Regression - Basic Concepts",
-    "question": "In the linear regression equation y = \u03b2\u2080 + \u03b2\u2081x\u2081 + \u03b2\u2082x\u2082 + \u03b5, what does \u03b2\u2080 represent?",
+    "question": "In the linear regression equation y = β₀ + β₁x₁ + β₂x₂ + ε, what does β₀ represent?",
     "options": [
       "The slope of the regression line",
       "The error term",
       "The y-intercept when all predictors equal zero",
       "The correlation coefficient"
     ],
-    "explanation": "\u03b2\u2080 (beta-zero) is the intercept term, representing the predicted value of y when all predictor variables equal zero.",
+    "explanation": "β₀ (beta-zero) is the intercept term, representing the predicted value of y when all predictor variables equal zero.",
     "answer": "c"
   },
   {
@@ -213,51 +213,51 @@ questions = [
     "question": "Which of the following is NOT a key assumption of linear regression?",
     "options": [
       "Linear relationship between predictors and target",
-      "Independence of residuals",
+      "Target variable must be categorical",
       "Homoscedasticity (constant variance of residuals)",
-      "Target variable must be categorical"
+      "Independence of residuals"
     ],
     "explanation": "Linear regression assumes a continuous target variable, not categorical. The other options are key assumptions of linear regression.",
-    "answer": "d"
+    "answer": "b"
   },
   {
     "id": 18,
     "category": "Linear Regression - Model Quality",
-    "question": "What does an R\u00b2 value of 0.85 indicate?",
+    "question": "What does an R² value of 0.85 indicate?",
     "options": [
       "The model is 85% accurate",
-      "85% of the variance in the target variable is explained by the model",
       "There's an 85% chance the model is correct",
-      "The model has an 85% error rate"
+      "The model has an 85% error rate",
+      "85% of the variance in the target variable is explained by the model"
     ],
-    "explanation": "R\u00b2 (coefficient of determination) represents the proportion of variance in the dependent variable explained by the independent variables. 0.85 means 85% of variance is explained.",
-    "answer": "b"
+    "explanation": "R² (coefficient of determination) represents the proportion of variance in the dependent variable explained by the independent variables. 0.85 means 85% of variance is explained.",
+    "answer": "d"
   },
   {
     "id": 19,
     "category": "Linear Regression - Multiple Variables",
-    "question": "Why might adjusted R\u00b2 be preferred over regular R\u00b2 in multiple regression?",
+    "question": "Why might adjusted R² be preferred over regular R² in multiple regression?",
     "options": [
       "It's easier to calculate",
-      "It penalizes the addition of irrelevant predictors",
-      "It's always higher than regular R\u00b2",
-      "It only works with categorical variables"
+      "It's always higher than regular R²",
+      "It only works with categorical variables",
+      "It penalizes the addition of irrelevant predictors"
     ],
-    "explanation": "Adjusted R\u00b2 accounts for the number of predictors, penalizing models that add predictors without meaningful improvement in explanatory power.",
-    "answer": "b"
+    "explanation": "Adjusted R² accounts for the number of predictors, penalizing models that add predictors without meaningful improvement in explanatory power.",
+    "answer": "d"
   },
   {
     "id": 20,
     "category": "Linear Regression - Categorical Variables",
     "question": "When using categorical variables in linear regression, why is one-hot encoding typically preferred over ordinal encoding?",
     "options": [
+      "It doesn't impose artificial ordering on categories",
       "It uses less memory",
       "It's faster to compute",
-      "It doesn't impose artificial ordering on categories",
       "It always improves model accuracy"
     ],
     "explanation": "One-hot encoding avoids imposing artificial numerical ordering on categories that may not have inherent order (e.g., colors, cities).",
-    "answer": "c"
+    "answer": "a"
   },
   {
     "id": 21,
@@ -265,12 +265,12 @@ questions = [
     "question": "What is the main advantage of gradient descent over the analytical solution for linear regression?",
     "options": [
       "It's always more accurate",
-      "It can handle very large datasets that don't fit in memory",
       "It's simpler to understand",
+      "It can handle very large datasets that don't fit in memory",
       "It always finds the global minimum"
     ],
     "explanation": "Gradient descent can work with datasets too large for memory and is scalable, while analytical solutions require computing matrix inverses of the full dataset.",
-    "answer": "b"
+    "answer": "c"
   },
   {
     "id": 22,
@@ -278,25 +278,25 @@ questions = [
     "question": "What is the primary purpose of regularization in linear regression?",
     "options": [
       "To increase model complexity",
-      "To prevent overfitting by penalizing large coefficients",
       "To speed up training",
-      "To handle missing data"
+      "To handle missing data",
+      "To prevent overfitting by penalizing large coefficients"
     ],
     "explanation": "Regularization adds a penalty term to prevent overfitting by discouraging large coefficient values, leading to simpler, more generalizable models.",
-    "answer": "b"
+    "answer": "d"
   },
   {
     "id": 23,
     "category": "Linear Regression - Ridge vs LASSO",
     "question": "What is the key difference between Ridge and LASSO regression?",
     "options": [
-      "Ridge uses L1 penalty, LASSO uses L2 penalty",
       "Ridge uses L2 penalty, LASSO uses L1 penalty",
+      "Ridge uses L1 penalty, LASSO uses L2 penalty",
       "Ridge is for classification, LASSO is for regression",
       "Ridge is faster than LASSO"
     ],
     "explanation": "Ridge regression uses L2 penalty (sum of squared coefficients), while LASSO uses L1 penalty (sum of absolute coefficients). LASSO can drive coefficients to exactly zero.",
-    "answer": "b"
+    "answer": "a"
   },
   {
     "id": 24,
@@ -304,25 +304,25 @@ questions = [
     "question": "What unique property does LASSO regression have compared to Ridge regression?",
     "options": [
       "It always has better performance",
-      "It can perform automatic feature selection by setting coefficients to zero",
       "It works better with categorical variables",
-      "It doesn't require regularization parameter tuning"
+      "It doesn't require regularization parameter tuning",
+      "It can perform automatic feature selection by setting coefficients to zero"
     ],
     "explanation": "LASSO's L1 penalty can drive some coefficients to exactly zero, effectively performing automatic feature selection by eliminating irrelevant features.",
-    "answer": "b"
+    "answer": "d"
   },
   {
     "id": 25,
     "category": "Data Preprocessing - Feature Transforms",
     "question": "When might you apply nonlinear feature transforms in linear regression?",
     "options": [
-      "When you want to make the model more complex",
       "When the relationship between predictors and target is nonlinear",
+      "When you want to make the model more complex",
       "When you have too many features",
       "When the target variable is categorical"
     ],
     "explanation": "Nonlinear transforms (like polynomial features, log transforms) can help capture nonlinear relationships while still using linear regression methods.",
-    "answer": "b"
+    "answer": "a"
   },
   {
     "id": 26,
@@ -330,12 +330,12 @@ questions = [
     "question": "Why is accuracy not always a good metric for imbalanced datasets?",
     "options": [
       "It's too hard to calculate",
-      "A model can achieve high accuracy by simply predicting the majority class",
       "It doesn't work with neural networks",
+      "A model can achieve high accuracy by simply predicting the majority class",
       "It requires too much computational power"
     ],
     "explanation": "In imbalanced datasets (e.g., 95% class A, 5% class B), a model predicting all samples as class A achieves 95% accuracy but fails to identify class B instances.",
-    "answer": "b"
+    "answer": "c"
   },
   {
     "id": 27,
@@ -343,12 +343,12 @@ questions = [
     "question": "What is the purpose of a dummy classifier in model evaluation?",
     "options": [
       "To replace the actual model in production",
-      "To provide a baseline for comparison with more sophisticated models",
       "To handle missing data",
-      "To speed up training"
+      "To speed up training",
+      "To provide a baseline for comparison with more sophisticated models"
     ],
     "explanation": "A dummy classifier provides a simple baseline (e.g., always predict majority class) to ensure your model performs better than naive strategies.",
-    "answer": "b"
+    "answer": "d"
   },
   {
     "id": 28,
@@ -368,13 +368,13 @@ questions = [
     "category": "Linear Regression - Outliers",
     "question": "How can linear regression help identify outliers in your data?",
     "options": [
-      "By looking at the R\u00b2 value",
-      "By examining residuals - points with very large residuals may be outliers",
+      "By looking at the R² value",
       "By checking the intercept term",
+      "By examining residuals - points with very large residuals may be outliers",
       "By looking at the correlation matrix"
     ],
     "explanation": "Large residuals (differences between predicted and actual values) can indicate outliers that don't fit the general pattern captured by the model.",
-    "answer": "b"
+    "answer": "c"
   },
   {
     "id": 30,
@@ -445,3 +445,20 @@ questions = [
     "answer": "b"
   }
 ]
+
+
+
+# Print answer distribution for verification
+def print_answer_distribution():
+    answer_counts = {'a': 0, 'b': 0, 'c': 0, 'd': 0}
+    for q in questions:
+        answer_counts[q['answer']] += 1
+    
+    total = len(questions)
+    print(f"Answer Distribution (Total: {total} questions):")
+    for option in ['a', 'b', 'c', 'd']:
+        count = answer_counts[option]
+        percentage = (count / total) * 100
+        print(f"Option {option.upper()}: {count} questions ({percentage:.1f}%)")
+
+print_answer_distribution()

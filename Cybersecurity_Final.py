@@ -1,11 +1,12 @@
 # Define the list of questions and answers from your study material
+# Properly balanced distribution across all answer choices (a, b, c, d)
 
 questions = [
     {
         "question": "What does NIST stand for?",
-        "options": ["a) National Institute of Security Technology", "b) National Information Security Trust", 
-                    "c) National Institute of Standards and Technology", "d) Network Information Systems Testing"],
-        "answer": "c"
+        "options": ["a) National Institute of Standards and Technology", "b) National Information Security Trust", 
+                    "c) National Institute of Security Technology", "d) Network Information Systems Testing"],
+        "answer": "a"
     },
     {
         "question": "The international standard for information security management practices is known as?",
@@ -26,18 +27,18 @@ questions = [
     },
     {
         "question": "Which encryption method uses the same key for both encryption and decryption?",
-        "options": ["a) Symmetric Encryption", "b) Asymmetric Encryption", "c) Public Key Infrastructure", "d) RSA"],
-        "answer": "a"
+        "options": ["a) Asymmetric Encryption", "b) Public Key Infrastructure", "c) RSA", "d) Symmetric Encryption"],
+        "answer": "d"
     },
     {
         "question": "What is a CA in the context of digital security?",
-        "options": ["a) Certificate Administrator", "b) Certificate Authority", "c) Cyber Agent", "d) Certification Analyst"],
-        "answer": "b"
+        "options": ["a) Certificate Authority", "b) Certificate Administrator", "c) Cyber Agent", "d) Certification Analyst"],
+        "answer": "a"
     },
     {
         "question": "Which of the following is a self-replicating program that spreads without user interaction?",
-        "options": ["a) Trojan", "b) Virus", "c) Worm", "d) Spyware"],
-        "answer": "c"
+        "options": ["a) Trojan", "b) Worm", "c) Virus", "d) Spyware"],
+        "answer": "b"
     },
     {
         "question": "An attack where SQL commands are injected into input fields to exploit vulnerabilities is called?",
@@ -46,8 +47,8 @@ questions = [
     },
     {
         "question": "What does 'MAC' stand for in terms of access control?",
-        "options": ["a) Mandatory Access Control", "b) Message Authentication Code", "c) Multi-user Access Control", "d) Machine Access Control"],
-        "answer": "a"
+        "options": ["a) Multi-user Access Control", "b) Message Authentication Code", "c) Machine Access Control", "d) Mandatory Access Control"],
+        "answer": "d"
     },
     {
         "question": "Which protocol establishes secure sessions for communication?",
@@ -65,8 +66,8 @@ questions = [
     },
     {
         "question": "Which organization coordinates global telecom networks and services?",
-        "options": ["a) ITU-T", "b) ISO", "c) ISOC", "d) NIST"],
-        "answer": "a"
+        "options": ["a) ISO", "b) ISOC", "c) ITU-T", "d) NIST"],
+        "answer": "c"
     },
     {
         "question": "Ensuring that data is only accessible by authorized personnel is known as:",
@@ -75,21 +76,21 @@ questions = [
     },
     {
         "question": "Which term refers to data remaining accurate and unaltered?",
-        "options": ["a) Confidentiality", "b) Integrity", "c) Availability", "d) Accountability"],
-        "answer": "b"
+        "options": ["a) Integrity", "b) Confidentiality", "c) Availability", "d) Accountability"],
+        "answer": "a"
     },
     {
         "question": "What is the primary function of a Certificate Authority (CA)?",
-        "options": ["a) Encrypt data","b) Monitor network traffic" , "c) Issue digital certificates", "d) Manage firewall settings"],
-        "answer": "c"
+        "options": ["a) Encrypt data","b) Issue digital certificates" , "c) Monitor network traffic", "d) Manage firewall settings"],
+        "answer": "b"
     },
     {
         "question": "How does 'Symmetric Encryption' work?",
         "options": ["a) Uses a different key for encryption and decryption", 
                     "b) Utilizes public certificates",
-                    "c) Encrypts data with a private key only", 
-                    "d) Uses the same key for both encryption and decryption"],
-        "answer": "d"
+                    "c) Uses the same key for both encryption and decryption", 
+                    "d) Encrypts data with a private key only"],
+        "answer": "c"
     },
     {
         "question": "An example of 'System Interference' could be:",
@@ -101,14 +102,14 @@ questions = [
     },
     {
         "question": "What does 'PKI' stand for?",
-        "options": ["a) Public Key Information", "b) Primary Key Infrastructure", 
-                    "c) Public Key Infrastructure", "d) Private Key Integration"],
-        "answer": "c"
+        "options": ["a) Public Key Infrastructure", "b) Primary Key Infrastructure", 
+                    "c) Public Key Information", "d) Private Key Integration"],
+        "answer": "a"
     },
     {
         "question": "Which protocol is responsible for creating secure sessions between clients and servers?",
-        "options": ["a) HTTP", "b) FTP", "c) TLS", "d) SSH"],
-        "answer": "c"
+        "options": ["a) HTTP", "b) TLS", "c) FTP", "d) SSH"],
+        "answer": "b"
     },
     {
         "question": "What is an example of a hash function?",
@@ -118,16 +119,16 @@ questions = [
     {
         "question": "In access control, what does 'MAC' stand for?",
         "options": ["a) Multi-access control", 
-                    "b) Mandatory Access Control", 
-                    "c) Mobile Authentication Code", 
-                    "d) Management Access Command"],
-        "answer": "b"
+                    "b) Mobile Authentication Code", 
+                    "c) Management Access Command", 
+                    "d) Mandatory Access Control"],
+        "answer": "d"
     },
     {
         "question": "Which SQL injection technique involves using error messages to gather information?",
-        "options": ["a) Union-based SQLi", "b) Blind SQLi", 
-                    "c) Error-based SQLi", "d) Time-based SQLi"],
-        "answer": "c"
+        "options": ["a) Error-based SQLi", "b) Blind SQLi", 
+                    "c) Union-based SQLi", "d) Time-based SQLi"],
+        "answer": "a"
     },
     {
         "question": "Which malware type is designed to appear harmless but contains malicious code?",
@@ -142,22 +143,22 @@ questions = [
     },
     {
         "question": "What is an 'Intrusion Detection System (IDS)' designed to do?",
-        "options": ["a) Encrypt network data", "b) Detect unauthorized access", 
-                    "c) Manage database servers", "d) Issue digital certificates"],
-        "answer": "b"
+        "options": ["a) Encrypt network data", "b) Manage database servers", 
+                    "c) Issue digital certificates", "d) Detect unauthorized access"],
+        "answer": "d"
     },
     {
         "question": "Which type of encryption uses a public key for encryption and a private key for decryption?",
-        "options": ["a) Symmetric encryption", "b) Asymmetric encryption", 
+        "options": ["a) Asymmetric encryption", "b) Symmetric encryption", 
                     "c) Hash encryption", "d) Network encryption"],
-        "answer": "b"
+        "answer": "a"
     },
     {
         "question": "An 'Attack Tree' helps in:",
-        "options": ["a) Identifying paths to exploit vulnerabilities", 
-                    "b) Encrypting communication channels", 
+        "options": ["a) Encrypting communication channels", 
+                    "b) Identifying paths to exploit vulnerabilities", 
                     "c) Managing digital certificates", "d) Monitoring network performance"],
-        "answer": "a"
+        "answer": "b"
     },
     {
         "question": "Which attack involves overwhelming a system with ping requests?",
@@ -166,45 +167,45 @@ questions = [
     },
     {
         "question": "What does 'RBAC' stand for in access control?",
-        "options": ["a) Role-Based Access Control", 
-                    "b) Remote-Based Access Command", 
-                    "c) Request-Based Access Check", "d) Region-Based Administrative Control"],
-        "answer": "a"
+        "options": ["a) Remote-Based Access Command", 
+                    "b) Request-Based Access Check", 
+                    "c) Region-Based Administrative Control", "d) Role-Based Access Control"],
+        "answer": "d"
     },
     {
         "question": "What is 'SQL Injection'?",
-        "options": ["a) A method of SQL optimization", 
-                    "b) An attack that allows manipulation of SQL queries", 
+        "options": ["a) An attack that allows manipulation of SQL queries", 
+                    "b) A method of SQL optimization", 
                     "c) A way to prevent unauthorized database access", 
                     "d) A tool for managing SQL databases"],
-        "answer": "b"
+        "answer": "a"
     },
     {
         "question": "Which protocol helps manage secure communication on networks?",
-        "options": ["a) TLS", "b) FTP", "c) HTTP", "d) IPX"],
-        "answer": "a"
+        "options": ["a) FTP", "b) TLS", "c) HTTP", "d) IPX"],
+        "answer": "b"
     },
 
     {
         "question": "What is the purpose of ISO 27002?",
         "options": ["a) To create digital certificates", 
-                    "b) To provide guidelines for information security management", 
-                    "c) To define web protocols", 
+                    "b) To define web protocols", 
+                    "c) To provide guidelines for information security management", 
                     "d) To establish network access rules"],
-        "answer": "b"
+        "answer": "c"
     },
     {
         "question": "Which organization provides leadership on issues regarding the future of the internet?",
-        "options": ["a) NIST", "b) ISOC", "c) ISO", "d) ITU-T"],
-        "answer": "b"
+        "options": ["a) NIST", "b) ISO", "c) ITU-T", "d) ISOC"],
+        "answer": "d"
     },
     {
         "question": "What does the term 'Availability' refer to in cybersecurity?",
-        "options": ["a) Ensuring data is unaltered", 
+        "options": ["a) Ensuring systems are operational and accessible", 
                     "b) Verifying the identity of users", 
                     "c) Protecting against unauthorized access", 
-                    "d) Ensuring systems are operational and accessible"],
-        "answer": "d"
+                    "d) Ensuring data is unaltered"],
+        "answer": "a"
     },
     {
         "question": "Ensuring that actions of users can be traced back to them is known as:",
@@ -213,23 +214,23 @@ questions = [
     },
     {
         "question": "Which term refers to a hierarchical structure used to analyze potential attack methods?",
-        "options": ["a) Network Map", "b) Attack Tree", "c) Data Chart", "d) Threat Vector"],
-        "answer": "b"
+        "options": ["a) Network Map", "b) Data Chart", "c) Attack Tree", "d) Threat Vector"],
+        "answer": "c"
     },
     {
         "question": "A method for secure key exchange over a public channel is known as:",
-        "options": ["a) Asymmetric encryption","b) Symmetric encryption" , "c) Diffie-Hellman", "d) RSA"],
-        "answer": "c"
+        "options": ["a) Asymmetric encryption","b) Symmetric encryption" , "c) RSA", "d) Diffie-Hellman"],
+        "answer": "d"
     },
     {
         "question": "Which protocol is used to encrypt data for secure network communication?",
-        "options": ["a) HTTP", "b) WAP ", "c) TLS", "d) SNMP"],
-        "answer": "c"
+        "options": ["a) TLS", "b) WAP ", "c) HTTP", "d) SNMP"],
+        "answer": "a"
     },
     {
         "question": "An unauthorized method of gaining access to computer systems is described as:",
-        "options": ["a) Data Integrity", "b) Malware", "c) Illegal Access", "d) DDOS"],
-        "answer": "c"
+        "options": ["a) Data Integrity", "b) Illegal Access", "c) Malware", "d) DDOS"],
+        "answer": "b"
     },
     {
         "question": "Which security control model grants access based on security labels and clearances?",
@@ -246,17 +247,17 @@ questions = [
     },
     {
         "question": "What does a Certificate Revocation List (CRL) contain?",
-        "options": ["a) Expired certificates", 
-                    "b) Revoked certificates no longer trustworthy", 
+        "options": ["a) Revoked certificates no longer trustworthy", 
+                    "b) Expired certificates", 
                     "c) All issued certificates", 
                     "d) List of encryption keys"],
-        "answer": "b"
+        "answer": "a"
     },
     {
         "question": "Which term describes an encryption approach where the same key encrypts and decrypts?",
-        "options": ["a) Public-key encryption", "b) Asymmetric encryption", 
-                    "c) Symmetric encryption", "d) Digital Signatures"],
-        "answer": "c"
+        "options": ["a) Public-key encryption", "b) Symmetric encryption", 
+                    "c) Asymmetric encryption", "d) Digital Signatures"],
+        "answer": "b"
     },
     {
         "question": "An attack that aims to overwhelm a server by sending repeated requests is known as:",
@@ -266,54 +267,54 @@ questions = [
     },
     {
         "question": "What is the main function of a firewall?",
-        "options": ["a) Encrypt data", "b) Control network traffic flow", 
-                    "c) Detect malware", "d) Generate encryption keys"],
-        "answer": "b"
+        "options": ["a) Encrypt data", "b) Detect malware", 
+                    "c) Generate encryption keys", "d) Control network traffic flow"],
+        "answer": "d"
     },
     {
         "question": "The act of creating fake data to deceive for legal purposes is defined as:",
-        "options": ["a) Data Interference", "b) Data Forgery", 
-                    "c) Computer-Related Forgery", "d) Data Tampering"],
-        "answer": "c"
-    },
-    {
-        "question": "What does 'RBAC' stand for?",
-        "options": ["a) Role-Based Access Control", "b) Randomized Base Access Control", 
-                    "c) Risk-Based Accountability Control", "d) Remote Backup Access Command"],
+        "options": ["a) Computer-Related Forgery", "b) Data Forgery", 
+                    "c) Data Interference", "d) Data Tampering"],
         "answer": "a"
     },
     {
-        "question": "Which organization standardizes global telecommunications?",
-        "options": ["a) ISO", "b) ITU-T", "c) ISOC", "d) NIST"],
+        "question": "What does 'RBAC' stand for?",
+        "options": ["a) Randomized Base Access Control", "b) Role-Based Access Control", 
+                    "c) Risk-Based Accountability Control", "d) Remote Backup Access Command"],
         "answer": "b"
+    },
+    {
+        "question": "Which organization standardizes global telecommunications?",
+        "options": ["a) ISO", "b) ISOC", "c) ITU-T", "d) NIST"],
+        "answer": "c"
     },
     {
         "question": "Which component is used in Kerberos to grant access without re-entering credentials?",
-        "options": ["a) Public key", "b) Private key", "c) Ticket-Granting Ticket (TGT)", "d) Certificate Authority"],
-        "answer": "c"
+        "options": ["a) Public key", "b) Private key", "c) Certificate Authority", "d) Ticket-Granting Ticket (TGT)"],
+        "answer": "d"
     },
     {
         "question": "Which attack type uses malicious SQL code to alter database behavior?",
-        "options": ["a) Cross-Site Scripting", "b) SQL Injection", 
+        "options": ["a) SQL Injection", "b) Cross-Site Scripting", 
                     "c) Phishing", "d) Malware Insertion"],
-        "answer": "b"
+        "answer": "a"
     },
     {
         "question": "The process of granting or denying access to a system is known as:",
-        "options": ["a) Authentication", "b) Identification", 
-                    "c) Access Control", "d) Accountability"],
-        "answer": "c"
+        "options": ["a) Authentication", "b) Access Control", 
+                    "c) Identification", "d) Accountability"],
+        "answer": "b"
     },
     {
         "question": "Which security model allows access based on the role of a user?",
-        "options": ["a) DAC", "b) RBAC", "c) MAC", "d) ABAC"],
-        "answer": "b"
+        "options": ["a) DAC", "b) MAC", "c) RBAC", "d) ABAC"],
+        "answer": "c"
     },
     {
         "question": "The use of rootkits in malware is primarily for:",
         "options": ["a) Data encryption", "b) Self-replication", 
-                    "c) Stealthing and hiding the malware's presence", "d) Crashing networks"],
-        "answer": "c"
+                    "c) Crashing networks", "d) Stealthing and hiding the malware's presence"],
+        "answer": "d"
     },
 
     {
@@ -336,27 +337,27 @@ questions = [
     },
     {
         "question": "What is 'SQL Injection' commonly used for?",
-        "options": ["a) Data encryption", "b) Data retrieval and modification", 
-                    "c) System update", "d) Network monitoring"],
-        "answer": "b"
+        "options": ["a) Data encryption", "b) System update", 
+                    "c) Network monitoring", "d) Data retrieval and modification"],
+        "answer": "d"
     },
     {
         "question": "Which cryptographic method is suitable for securing small devices due to efficient key sizes?",
-        "options": ["a) RSA", "b) DES", "c) Triple-DES", "d) ECC"],
-        "answer": "d"
+        "options": ["a) ECC", "b) DES", "c) Triple-DES", "d) RSA"],
+        "answer": "a"
     },
     {
     "question": "What does RFC 4949 describe in terms of access control?",
     "options": ["a) Role-based access control", 
-                "b) Identification of users", "c) Auditing system activities", "d) Regulating system resources according to security policies"],
-    "answer": "d"
+                "b) Regulating system resources according to security policies", "c) Auditing system activities", "d) Identification of users"],
+    "answer": "b"
 },
 
 {
     "question": "What is a key feature of a Packet Filtering Firewall?",
     "options": ["a) Monitors application-level traffic", 
-                "b) Establishes two TCP connections to relay traffic", "c) Detects and blocks malware automatically", "b) Examines packets based on IP addresses, port numbers, and protocols"],
-    "answer": "d"
+                "b) Establishes two TCP connections to relay traffic", "c) Examines packets based on IP addresses, port numbers, and protocols", "d) Detects and blocks malware automatically"],
+    "answer": "c"
 },
 {
     "question": "Which malware type hides its presence by modifying system operations?",
@@ -365,52 +366,52 @@ questions = [
 },
 {
     "question": "Which of the following describes a 'Botnet'?",
-    "options": ["a) A self-replicating malware that spreads without user interaction", "b) A network of compromised machines controlled for coordinated attacks", 
+    "options": ["a) A network of compromised machines controlled for coordinated attacks", "b) A self-replicating malware that spreads without user interaction", 
                 "c) A keylogging tool used to capture sensitive information", "d) A piece of software designed to corrupt system files"],
-    "answer": "b"
+    "answer": "a"
 },
 {
     "question": "Which cryptographic method is commonly used for exchanging keys over public channels?",
-    "options": ["a) RSA", "b) SHA", "c) Diffie-Hellman", "d) HMAC"],
-    "answer": "c"
+    "options": ["a) RSA", "b) Diffie-Hellman", "c) SHA", "d) HMAC"],
+    "answer": "b"
 },
 {
     "question": "What is the purpose of a 'Ticket-Granting Ticket (TGT)' in Kerberos?",
-    "options": ["a) To provide asymmetric encryption for network communications", "b) To allow users to request service tickets without re-entering credentials", 
-                "c) To generate and store private keys for encryption", "d) To authenticate external users connecting to the network"],
-    "answer": "b"
+    "options": ["a) To provide asymmetric encryption for network communications", "b) To generate and store private keys for encryption", 
+                "c) To allow users to request service tickets without re-entering credentials", "d) To authenticate external users connecting to the network"],
+    "answer": "c"
 },
 {
     "question": "What is the role of a Certificate Revocation List (CRL)?",
-    "options": ["a) To store expired certificates", "b) To store revoked certificates that are no longer trustworthy", 
-                "c) To generate new digital certificates", "d) To manage the lifecycle of valid certificates"],
-    "answer": "b"
+    "options": ["a) To store expired certificates", "b) To generate new digital certificates", 
+                "c) To manage the lifecycle of valid certificates", "d) To store revoked certificates that are no longer trustworthy"],
+    "answer": "d"
 },
 {
     "question": "Which attack manipulates TCP connections to disrupt services by sending a large number of SYN requests?",
-    "options": ["a) Ping Flood", "b) SYN Spoofing", "c) DDoS", "d) SQL Injection"],
-    "answer": "b"
+    "options": ["a) SYN Spoofing", "b) Ping Flood", "c) DDoS", "d) SQL Injection"],
+    "answer": "a"
 },
     # Legal Articles Questions
     {
         "question": "Which article refers to 'Illegal Access'?",
-        "options": ["a) Article 2", "b) Article 3", "c) Article 5", "d) Article 6"],
-        "answer": "a"
+        "options": ["a) Article 3", "b) Article 2", "c) Article 5", "d) Article 6"],
+        "answer": "b"
     },
     {
         "question": "Which article refers to 'Illegal Interception'?",
-        "options": ["a) Article 2", "b) Article 3", "c) Article 4", "d) Article 9"],
-        "answer": "b"
+        "options": ["a) Article 2", "b) Article 4", "c) Article 3", "d) Article 9"],
+        "answer": "c"
     },
     {
         "question": "Which article refers to 'Data Interference'?",
-        "options": ["a) Article 5", "b) Article 4", "c) Article 7", "d) Article 2"],
-        "answer": "b"
+        "options": ["a) Article 5", "b) Article 7", "c) Article 2", "d) Article 4"],
+        "answer": "d"
     },
     {
         "question": "Which article refers to 'System Interference'?",
-        "options": ["a) Article 6", "b) Article 5", "c) Article 4", "d) Article 9"],
-        "answer": "b"
+        "options": ["a) Article 5", "b) Article 6", "c) Article 4", "d) Article 9"],
+        "answer": "a"
     },
     {
         "question": "Which article refers to 'Misuse of Devices'?",
@@ -419,18 +420,18 @@ questions = [
     },
     {
         "question": "Which article refers to 'Computer Related Forgery'?",
-        "options": ["a) Article 8", "b) Article 7", "c) Article 4", "d) Article 6"],
-        "answer": "b"
+        "options": ["a) Article 8", "b) Article 4", "c) Article 7", "d) Article 6"],
+        "answer": "c"
     },
     {
         "question": "Which article refers to 'Computer Related Fraud'?",
-        "options": ["a) Article 9", "b) Article 8", "c) Article 2", "d) Article 10"],
-        "answer": "b"
+        "options": ["a) Article 9", "b) Article 2", "c) Article 10", "d) Article 8"],
+        "answer": "d"
     },
     {
         "question": "Which article refers to 'Offenses related to child pornography'?",
-        "options": ["a) Article 3", "b) Article 5", "c) Article 9", "d) Article 11"],
-        "answer": "c"
+        "options": ["a) Article 9", "b) Article 5", "c) Article 3", "d) Article 11"],
+        "answer": "a"
     },
     {
         "question": "Which article refers to 'Infringements of copyright and related rights'?",
@@ -439,21 +440,21 @@ questions = [
     },
     {
         "question": "Which article refers to 'Attempt and Aiding or Abetting'?",
-        "options": ["a) Article 9", "b) Article 11", "c) Article 6", "d) Article 8"],
-        "answer": "b"
+        "options": ["a) Article 9", "b) Article 6", "c) Article 11", "d) Article 8"],
+        "answer": "c"
     },
     
-     #back to other questions I found interestingf
+     #back to other questions I found interesting
     {
     "question": "Which term describes the process of recovering stolen credentials using malware?",
-    "options": ["a) Keylogging", "b) Spyware", "c) Phishing", "d) SQL Injection"],
-    "answer": "a"
+    "options": ["a) Phishing", "b) Spyware", "c) SQL Injection", "d) Keylogging"],
+    "answer": "d"
     },
    
         {
         "question": "What type of encryption does SSH use to secure remote communication?",
-        "options": ["a) Symmetric Encryption", "b) Asymmetric Encryption", "c) Hash Encryption", "d) Public-Key Encryption"],
-        "answer": "b"
+        "options": ["a) Asymmetric Encryption", "b) Symmetric Encryption", "c) Hash Encryption", "d) Public-Key Encryption"],
+        "answer": "a"
     },  {
         "question": "Which of the following protocols can be used to secure email communication?",
         "options": ["a) SMTP", "b) TLS", "c) IMAP", "d) SNMP"],
@@ -461,13 +462,13 @@ questions = [
     },
         {
         "question": "What is an example of an asymmetric encryption algorithm?",
-        "options": ["a) RSA", "b) AES", "c) SHA", "d) MD5"],
-        "answer": "a"
+        "options": ["a) AES", "b) SHA", "c) RSA", "d) MD5"],
+        "answer": "c"
     },
         {
         "question": "What protocol is commonly used for network file transfers?",
-        "options": ["a) HTTP", "b) FTP", "c) SSH", "d) IPX"],
-        "answer": "b"
+        "options": ["a) HTTP", "b) SSH", "c) IPX", "d) FTP"],
+        "answer": "d"
     },
         {
         "question": "What does 'Diffie-Hellman' refer to?",
@@ -475,30 +476,30 @@ questions = [
         "answer": "a"
     },    {
         "question": "Which protocol uses asymmetric encryption for key exchange?",
-        "options": ["a) TLS","b) RSA" , "c) FTP", "d) HTTP"],
-        "answer": "c"
+        "options": ["a) FTP","b) TLS" , "c) RSA", "d) HTTP"],
+        "answer": "b"
     },
     {
     "question": "Which type of Cross-Site Scripting (XSS) attack allows an attacker to inject scripts that are stored on the server and executed when a user accesses the affected page?",
-    "options": ["a) Stored XSS", "b) Reflected XSS", "c) DOM-based XSS", "d) Blind XSS"],
-    "answer": "a"
+    "options": ["a) Reflected XSS", "b) DOM-based XSS", "c) Stored XSS", "d) Blind XSS"],
+    "answer": "c"
     },
     {
     "question": "Which type of Cross-Site Scripting (XSS) attack involves injecting a script directly into a URL or form, which is then reflected back by the server without being stored?",
-    "options": ["a) Stored XSS", "b) Reflected XSS", "c) Persistent XSS", "d) DOM-based XSS"],
-    "answer": "b"
+    "options": ["a) Stored XSS", "b) Persistent XSS", "c) DOM-based XSS", "d) Reflected XSS"],
+    "answer": "d"
     },
     {
     "question": "What makes DOM-based XSS particularly dangerous in modern web applications?",
-    "options": ["a) It allows scripts to be stored on the server", "b) It manipulates the client-side document object model (DOM) without the server’s involvement", 
+    "options": ["a) It manipulates the client-side document object model (DOM) without the server's involvement", "b) It allows scripts to be stored on the server", 
                 "c) It can be easily detected by security tools", "d) It only works in older browsers"],
-    "answer": "b"
+    "answer": "a"
     },
     {
     "question": "Which of the following is NOT a characteristic of RBAC?",
-    "options": ["a) Users inherit permissions through their role", "b) Access control policies are enforced at a system-wide level", 
-                "c) A user can have multiple roles with varying permissions", "d) Access is granted on a 'need-to-know' basis"],
-    "answer": "d"   
+    "options": ["a) Users inherit permissions through their role", "b) Access is granted on a 'need-to-know' basis", 
+                "c) A user can have multiple roles with varying permissions", "d) Access control policies are enforced at a system-wide level"],
+    "answer": "b"   
     },{
     "question": "What is the defining characteristic of Discretionary Access Control (DAC)?",
     "options": ["a) Access is based on the user's role", "b) The system enforces access based on security labels", 
@@ -507,15 +508,30 @@ questions = [
     },
     {
     "question": "In DAC, who has the authority to grant access to a resource?",
-    "options": ["a) The system administrator", "b) The user who owns the resource", "c) The user's manager", "d) The security officer"],
-    "answer": "b"
+    "options": ["a) The system administrator", "b) The user's manager", "c) The security officer", "d) The user who owns the resource"],
+    "answer": "d"
     },
     {
     "question": "Which of the following is a potential disadvantage of DAC?",
-    "options": ["a) It is too strict for most organizations", "b) It allows unauthorized users to escalate their privileges", 
+    "options": ["a) It allows unauthorized users to escalate their privileges", "b) It is too strict for most organizations", 
                 "c) It requires constant management by system administrators", "d) It does not allow resource owners to share files easily"],
-    "answer": "b"
+    "answer": "a"
 }
-    
 
 ]
+
+# Function to check answer distribution
+def print_answer_distribution():
+    answer_counts = {'a': 0, 'b': 0, 'c': 0, 'd': 0}
+    for q in questions:
+        answer_counts[q['answer']] += 1
+    
+    total = len(questions)
+    print(f"Answer Distribution (Total: {total} questions):")
+    for option in ['a', 'b', 'c', 'd']:
+        count = answer_counts[option]
+        percentage = (count / total) * 100
+        print(f"Option {option.upper()}: {count} questions ({percentage:.1f}%)")
+
+# Check current distribution
+print_answer_distribution()
